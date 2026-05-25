@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
   "dependencies": {
     "@types/express": "^5.0.6",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "3.8.3"
   }
 }
