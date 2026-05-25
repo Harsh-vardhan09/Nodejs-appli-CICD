@@ -9,7 +9,7 @@ jobs:
   code-format:
     runs-on: ubuntu-latest
     container: 
-        image: Node:20
+        image: node:20
 
     steps:
       - name: Checkout Code
